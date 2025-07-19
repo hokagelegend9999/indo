@@ -20,13 +20,13 @@ echo -e " "
 echo -e " "
 read -p "   INPUT SUBDOMAIN :  " domen
 echo -e ""
-DOMAIN=r32wrtxtunneling.site
+DOMAIN=hokagelegend.web.id
 sub=${domen}
-dns=${sub}.r32wrtxtunneling.site
+dns=${sub}.hokagelegend.web.id
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
-#dns=${sub}.r32wrtxtunneling.site
-CF_KEY=3c45413104a3c39f1db9dff20acb3a99d7610
-CF_ID=amandafitrizharifa009@gmail.com
+#dns=${sub}.hokagelegend.web.id
+CF_KEY=ab8d0901acb186291e58f21359d07e7b847dc
+CF_ID=faridaumiabi@gmail.com
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
