@@ -5,7 +5,11 @@
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</pre></code>
 
 ### INSTALL SCRIPT 
-<pre><code>sudo apt update && sudo apt install tmux -y && tmux new -s install-session && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/hokagelegend9999/indo/refs/heads/main/main.sh && chmod +x main.sh && ./main.sh
+
+```
+sudo apt update && sudo apt install tmux -y && tmux new -s install-session && 
+```
+<pre><code>apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/hokagelegend9999/indo/refs/heads/main/main.sh && chmod +x main.sh && ./main.sh
 </code></pre>
 
 ```
