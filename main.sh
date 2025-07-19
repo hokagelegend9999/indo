@@ -161,6 +161,7 @@ chmod +x /var/log/xray
 touch /var/log/xray/access.log
 touch /var/log/xray/error.log
 mkdir -p /var/lib/kyt >/dev/null 2>&1
+sudo mkdir -p /etc/haproxy
 while IFS=":" read -r a b; do
 case $a in
 "MemTotal") ((mem_used+=${b/kB})); mem_total="${b/kB}" ;;
