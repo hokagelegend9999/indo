@@ -89,9 +89,9 @@ echo -e "\e[32mloading...\e[0m"
 clear
 clear
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/rwrtx/vvipsc/main/izin | grep $MYIP | awk '{print $2}')
+username=$(curl https://github.com/hokagelegend9999/ijin/raw/refs/heads/main/INDO | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/rwrtx/vvipsc/main/izin | grep $MYIP | awk '{print $3}')
+expx=$(curl https://github.com/hokagelegend9999/ijin/raw/refs/heads/main/INDO | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
@@ -118,8 +118,8 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/rwrtx/AFZ/main/"
-NOOBZJSON="https://raw.githubusercontent.com/rwrtx/noobzvpns/main/"
+REPO="https://raw.githubusercontent.com/hokagelegend9999/indo/refs/heads/main/"
+NOOBZJSON="https://raw.githubusercontent.com/hokagelegend9999/indo/refs/heads/main/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
