@@ -1,7 +1,7 @@
 
-REPO="https://raw.githubusercontent.com/capmodzstore/x7/main/"
+REPO="https://github.com/hokagelegend9999/indo/raw/refs/heads/main/"
 
+https://github.com/hokagelegend9999/indo/raw/refs/heads/main/dropbear.conf
 
-
-wget -q -O /etc/default/dropbear "${REPO}Cfg/dropbear.conf"
+wget -q -O /etc/default/dropbear "${REPO}dropbear.conf"
 chmod +x /etc/default/dropbear
