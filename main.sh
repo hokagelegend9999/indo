@@ -307,8 +307,8 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 clear
 restart_system() {
-USRSC=$(wget -qO- https://raw.githubusercontent.com/rwrtx/vvipsc/main/izin | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/rwrtx/vvipsc/main/izin | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://raw.githubusercontent.com/hokagelegend9999/ijin/refs/heads/main/INDO | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://raw.githubusercontent.com/hokagelegend9999/ijin/refs/heads/main/INDO | grep $ipsaya | awk '{print $3}')
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
@@ -495,7 +495,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service limit Quota"
-wget raw.githubusercontent.com/rwrtx/AFZ/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://github.com/hokagelegend9999/indo/raw/refs/heads/main/Fls/limit.sh && chmod +x limit.sh && ./limit.sh
 cd
 wget -q -O /usr/bin/limit-ip "${REPO}Fls/limit-ip"
 chmod +x /usr/bin/*
